@@ -36,7 +36,6 @@ public class TestFormTests {
         $(".react-datepicker__month-select").selectOption("October");
         $(".react-datepicker__year-select").selectOption("1987");
         $(byText("17")).click();
-        $(".subjects-auto-complete__input").click();
         $("#subjectsInput").sendKeys("Chemistry");
         $("#subjectsInput").pressEnter();
         $("#hobbiesWrapper").$(byText("Music")).click();
@@ -57,7 +56,7 @@ public class TestFormTests {
                 text("17 October,1987"),
                 text("Chemistry"),
                 text("Music"),
-                text("ToolsQA.jpg"),
+                text("ToolsQA.png"),
                 text("qwerty"),
                 text("NCR Delhi")
         );
