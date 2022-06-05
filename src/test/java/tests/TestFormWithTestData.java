@@ -2,8 +2,8 @@ package tests;
 
 import org.junit.jupiter.api.Test;
 
-import static tests.TestData.FIRST_NAME;
-import static tests.TestData.LAST_NAME;
+import static tests.StudentFormData.FIRST_NAME;
+import static tests.StudentFormData.LAST_NAME;
 
 public class TestFormWithTestData extends TestBase{
     @Test
