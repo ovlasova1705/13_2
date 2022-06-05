@@ -5,8 +5,7 @@ import utils.RandomGen;
 
 public class StudentFormData {
 
-    public final static String FIRST_NAME = "Olga",
-   LAST_NAME = "Vlasova";
+    public final static String FIRST_NAME = "Olga", LAST_NAME = "Vlasova";
 
     Faker faker = new Faker();
     String firstName = faker.address().firstName();
