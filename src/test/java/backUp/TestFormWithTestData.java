@@ -1,11 +1,11 @@
-package tests;
+package backUp;
 
 import org.junit.jupiter.api.Test;
 
 import static tests.StudentFormData.FIRST_NAME;
 import static tests.StudentFormData.LAST_NAME;
 
-public class TestFormWithTestData extends TestBase{
+public class TestFormWithTestData /*extends TestBase*/{
     @Test
     void successfullTest() {
         //open("/automation-practice-form");
