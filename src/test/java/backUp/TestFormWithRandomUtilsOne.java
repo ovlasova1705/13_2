@@ -1,11 +1,11 @@
-package tests;
+package backUp;
 
 import org.junit.jupiter.api.Test;
 
 import static utils.RandomUtils.getRandomEmail;
 import static utils.RandomUtils.getRandomString;
 
-public class TestFormWithRandomUtilsOne extends TestBase{
+public class TestFormWithRandomUtilsOne /*extends TestBase*/{
     @Test
     void successfullTest() {
         //open("/automation-practice-form");
@@ -83,3 +83,4 @@ public class TestFormWithRandomUtilsOne extends TestBase{
     }
 
 }
+
