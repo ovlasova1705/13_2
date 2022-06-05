@@ -76,7 +76,6 @@ public class RegistrationFormPage {
         $(byText("NCR")).click();
         return this;
     }
-
     public RegistrationFormPage setCity(String value){
         $("#city").click();
         $(byText("Delhi")).click();

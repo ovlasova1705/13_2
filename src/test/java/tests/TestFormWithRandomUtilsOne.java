@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import static utils.RandomUtils.getRandomEmail;
 import static utils.RandomUtils.getRandomString;
 
-public class TestFormWithRandomUtils extends TestBase{
+public class TestFormWithRandomUtilsOne extends TestBase{
     @Test
     void successfullTest() {
         //open("/automation-practice-form");
