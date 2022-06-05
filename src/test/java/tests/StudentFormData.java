@@ -3,7 +3,7 @@ package tests;
 import com.github.javafaker.Faker;
 import utils.RandomGen;
 
-public class TestData {
+public class StudentFormData {
 
     public final static String FIRST_NAME = "Olga",
    LAST_NAME = "Vlasova";
